@@ -1,6 +1,6 @@
 
 import { useState, useRef, useEffect } from "react"
-import { handleCreatequiz } from '../handleCreatedQuiz'
+import { handleCreatequiz } from "../HandleCreatedQuiz";
 import { Position, QuestionRes, QuizResQuestions } from '../interfaces';
 import { useNavigate } from 'react-router';
 import mapboxgl, { Map as MapGl } from 'mapbox-gl';
