@@ -1,0 +1,241 @@
+.loginPage {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.loginPage_header {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 1px;  
+}
+.loginPage_header-h1 {
+color: #ffc857;
+font-size: 3.7rem;
+font-family: fantasy;
+text-transform: uppercase;
+}
+
+.loginPage_header-h4 {
+color: #fff;
+font-size: 1rem;
+}
+
+.loginPage_section {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.loginPage_input {
+display: flex;
+flex-direction: column;
+}
+.loginPage_buttons {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+.btnLogin {
+background-color: #794BC5;
+color: white;
+border: none;
+padding: 10px 25px;
+font-size: 16px;
+cursor: pointer;
+transition:  0.3s ease;
+}
+.inputs {
+margin: 15px;
+background: none;
+border: none;
+outline: none;
+max-width: 190px;
+padding: 10px 20px;
+font-size: 16px;
+border-radius: 9999px;
+box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+color: #fff;
+}
+	
+button {
+margin-top: 10px;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+background-color: #794BC5;
+color: #fff;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+button:hover {
+background-color: #8E6CC6;
+}
+.createPage_header {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 1px;
+}
+.createPage_header-h1 {
+  color: #ffc857;
+  font-size: 3.7rem;
+  font-family: fantasy;
+  text-transform: uppercase;
+}
+.createPage_header-h3 {
+  color: #fff;
+  font-size: 1rem;
+}
+.createPage_section {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  max-height: 600px;
+}
+.create_input {
+position: relative;
+margin: 15px;
+background: none;
+border: none;
+outline: none;
+max-width: 190px;
+padding: 10px 20px;
+font-size: 16px;
+border-radius: 9999px;
+box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+color: #fff;
+}
+.create_input::placeholder {
+color: #fff;
+}
+.btnCreate {
+background-color: #794BC5;
+color: white;
+border: none;
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+.create_inputs {
+display: flex;
+flex-direction: column;
+}
+.create_input-btn {
+margin-bottom: 0.5rem;
+align-items: center;
+justify-content: center;
+}
+.create_input-btn-2 {
+margin-bottom: 0.5rem;  
+}
+.btnCreate:hover {
+background-color: #8E6CC6;
+}
+
+.placeOut {
+color: #000;
+font-size: 12px;
+text-align: center;
+
+}
+.map-container {
+height: 550px;
+}
+.mapboxgl-canvas {
+border-radius: 1.4rem;
+}
+.naviPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.naviHeader {
+display: flex;
+flex-direction: column;
+margin-bottom: 2rem;
+}
+.naviHeader_h1 {
+  color: #ffc857;
+  font-size: 3.7rem;
+  font-family: fantasy;
+  text-transform: uppercase;
+}
+.naviPage_section {
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 10px;
+}
+.btnNavi {
+background-color: #794BC5;
+color: white;
+border: none;
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+.btnNavi:hover {
+ background-color: #8E6CC6;
+}
+.showQuizzes {
+display: flex;
+flex-direction: column;
+width: 400px;
+height: 500px;
+}
+.showQuizzes_header {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.showQuizzes_header-h1 {
+  color: #ffc857;
+  font-size: 3.7rem;
+  font-family: fantasy;
+  text-transform: uppercase;
+}
+.showQuizzes_header-h4 {
+color: #fff;
+font-size: 1rem;
+}
+.showQuizzes_header-section {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.showQuizzes_header-section-btn {
+margin-bottom: 0.4rem;
+padding: 0.9rem 7rem;
+}
+.quiz {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;  
+border: 2px solid #000;
+width: 100%;
+}
+.quizName{
+font-size: 30px;
+color: #fff;
+}
+.quizBy {
+font-size: 18px;
+color: yellow;
+}
+.btnQuiz {
+margin-bottom: 0.7rem;
+padding: 0.9rem 7rem;
+}

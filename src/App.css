@@ -1,0 +1,14 @@
+#root {
+  max-width: 500px;
+  margin: 0 auto;
+
+}
+
+.App {
+
+display: flex;
+justify-content: center;  
+align-items: center;
+margin-top: 5rem;
+
+}
